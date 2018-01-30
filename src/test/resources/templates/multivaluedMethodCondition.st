@@ -1,1 +1,0 @@
-multivaluedMethodCondition(propertyName, canonicalClassPath) ::= "adaptedClass.get<propertyName>() != null && adaptedClass.get<propertyName>() instanceof <canonicalClassPath>"

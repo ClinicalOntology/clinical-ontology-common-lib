@@ -1,1 +1,0 @@
-multivaluedPrimitiveMethodIfBody(propertyName, canonicalClassPath) ::= "return ((<canonicalClassPath>) adaptedClass.get<propertyName>()).getValue();"
