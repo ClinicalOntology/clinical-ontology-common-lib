@@ -1,0 +1,5 @@
+rootProject.name = 'clinical-ontology-common-lib'
+
+include 'clinical-ontology-common-graph'
+include 'clinical-ontology-common-io'
+

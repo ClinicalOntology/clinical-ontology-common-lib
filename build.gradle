@@ -1,0 +1,46 @@
+
+plugins {
+    id 'java'
+    id 'java-library'
+    id 'groovy'
+    id 'maven-publish'
+}
+
+allprojects {
+    repositories {
+        jcenter()
+    }
+
+    java {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+        withJavadocJar()
+        withSourcesJar()
+    }
+}
+
+subprojects {
+    version = '0.0.1-SNAPSHOT'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.hibernate:hibernate-core:3.6.7.Final'
+    implementation 'org.codehaus.groovy:groovy:2.4.10'
+
+    testImplementation 'org.spockframework:spock-core:1.0-groovy-2.4', {
+        exclude module: 'groovy-all'
+    }
+}
+
+println project
+configurations.runtimeClasspath.each { File f -> println f }
+
+version = '0.0.1-SNAPSHOT'
+
+configurations {
+
+}
