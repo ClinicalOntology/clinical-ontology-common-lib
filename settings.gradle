@@ -2,4 +2,7 @@ rootProject.name = 'clinical-ontology-common-lib'
 
 include 'clinical-ontology-common-graph'
 include 'clinical-ontology-common-io'
+include 'clinical-ontology-common-metamodel'
+include 'clinical-ontology-common-string'
+include 'clinical-ontology-common-xml'
 
