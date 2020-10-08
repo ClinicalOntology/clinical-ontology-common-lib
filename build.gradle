@@ -91,7 +91,6 @@ subprojects {
                 def releasesRepoUrl = "TBD"
                 def snapshotsRepoUrl = "https://oss.sonatype.org/content/repositories/snapshots"
                 url = version.endsWith('SNAPSHOT') ? snapshotsRepoUrl : releasesRepoUrl
-                println url
             }
         }
     }

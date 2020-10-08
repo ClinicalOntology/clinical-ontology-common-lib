@@ -5,4 +5,6 @@ include 'clinical-ontology-common-io'
 include 'clinical-ontology-common-metamodel'
 include 'clinical-ontology-common-string'
 include 'clinical-ontology-common-xml'
+include 'clinical-ontology-common-date'
+include 'clinical-ontology-common-collections'
 
